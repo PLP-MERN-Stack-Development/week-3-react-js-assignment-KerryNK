@@ -14,4 +14,5 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',
   },
+  base: '/', // Ensures correct asset paths for Vercel
 });
